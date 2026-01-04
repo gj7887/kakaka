@@ -44,8 +44,8 @@ jobs:
       uses: docker/metadata-action@v5
       with:
         images: |
-          alireza7/s-ui
-          ghcr.io/alireza0/s-ui
+          kakaka
+          ghcr.io/gj7887/kakaka
         tags: |
           type=ref,event=branch
           type=ref,event=tag
