@@ -44,8 +44,8 @@ jobs:
       uses: docker/metadata-action@v5
       with:
         images: |
-          kakaka
-          ghcr.io/gj7887/kakaka
+          kaka163/kakaka
+          ghcr.io/kaka163/kakaka
         tags: |
           type=ref,event=branch
           type=ref,event=tag
